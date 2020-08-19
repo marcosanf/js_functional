@@ -4,3 +4,11 @@ function HelloWorld() {
 }
 
 HelloWorld()
+
+// Function Expression 
+
+const validationNumber = function(x,y){
+    return console.log(x === y ? true : false)
+}
+
+validationNumber(6,7)
